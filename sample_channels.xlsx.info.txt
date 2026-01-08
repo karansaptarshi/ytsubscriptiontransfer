@@ -1,0 +1,25 @@
+NOTE: This is a placeholder file explaining the Excel format needed.
+
+Create an Excel file (e.g., channels.xlsx) with the following structure:
+
+Column A (first column) should contain YouTube channel URLs, one per row.
+
+Example content:
+┌─────────────────────────────────────────────────────┐
+│ A (Channel URLs)                                    │
+├─────────────────────────────────────────────────────┤
+│ https://www.youtube.com/@MrBeast                    │
+│ https://www.youtube.com/@PewDiePie                  │
+│ https://www.youtube.com/channel/UCX6OQ3DkcsbYNE6H8uQQuVA │
+│ https://www.youtube.com/c/LinusTechTips             │
+│ https://www.youtube.com/@mkbhd                      │
+└─────────────────────────────────────────────────────┘
+
+Supported URL formats:
+- https://youtube.com/@ChannelHandle
+- https://youtube.com/channel/CHANNEL_ID
+- https://youtube.com/c/CustomName
+- https://youtube.com/user/Username
+
+The script will read the first column and process all valid YouTube URLs.
+
